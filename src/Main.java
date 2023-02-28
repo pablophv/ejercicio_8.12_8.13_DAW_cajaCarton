@@ -4,11 +4,11 @@ public class Main {
 
         Unidad metros = new Unidad("metros");
         Unidad cm = new Unidad("cm");
-        Caja caja1 = new Caja(15,20,20,metros, "");
-        Caja caja2 = new Caja(15,50,20,cm,"");
+        Caja caja1 = new Caja(15,20,20,metros, "Pablo");
+        Caja caja2 = new Caja(15,50,20,cm,"Raquel");
 
-        caja1.setEtiqueta("Pablo Hita, C/java n88");
-        caja2.setEtiqueta("Raquel Garreda, C/php n92");
+        //caja1.setEtiqueta("Pablo Hita, C/java n88");
+       // caja2.setEtiqueta("Raquel Garreda, C/php n92");
 
 
         System.out.println(caja1);

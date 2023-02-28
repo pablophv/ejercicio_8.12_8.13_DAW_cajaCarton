@@ -2,7 +2,7 @@ public class CajaCarton extends Caja {
     public CajaCarton(double alto, double ancho, double largo, Unidad unidad,String etiqueta) {
 
         super(alto, ancho, largo, unidad,etiqueta);
-        this.unidad.establecerUnidad("cm");
+        this.unidad.setUnidad("cm");
 
     }
     public double getVolumen(){

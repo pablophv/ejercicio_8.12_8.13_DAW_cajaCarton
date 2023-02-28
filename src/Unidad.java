@@ -4,7 +4,7 @@ public class Unidad {
     private String unidad;
 
     public Unidad(String unidad) {
-
+        this.unidad = unidad;
     }
     public String toString(){
         return unidad;
@@ -12,10 +12,6 @@ public class Unidad {
 
     public void setUnidad(String unidad) {
         this.unidad = unidad;
-    }
-
-    public void establecerUnidad(String uni){
-        this.unidad = "cm";
     }
 
 }

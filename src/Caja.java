@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Caja {
-
     final double largo;
     final double ancho;
     final double alto;
@@ -12,7 +11,7 @@ public class Caja {
         this.ancho = ancho;
         this.alto = fondo;
         this.unidad = unidad;
-        this.etiqueta = etiqueta;
+        setEtiqueta(etiqueta);
 
     }
 
